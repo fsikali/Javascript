@@ -49,7 +49,7 @@ function addNumbers(a, b) {
     return a + b;
 }
  
-// Practice8_functions converting fahrenheit to celsius
+ Practice8_functions converting fahrenheit to celsius
 let z = toCelsius(77); 
 document.getElementById('test2').innerHTML = "The temprature is " + z + " degrees";
 
@@ -57,33 +57,6 @@ function toCelsius(fahrenheit) {
     return 5/9 * (fahrenheit-32);
 }
 
-
-
-// Practice9_object_properties js code  
-function objectCar() {
-
-    const car = {
-        model: "500", 
-        color: "navyblue", 
-        type: "Mercedez", 
-        price: "15million"
-        };
-        
-        document.getElementById('test').innerHTML = car.model;    
-}
-
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
