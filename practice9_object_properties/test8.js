@@ -14,11 +14,11 @@ function objectCar() {
 }
 
 
-// Accessing methods js code
+// Accessing methods js code example 1
 
 function shoeCompany(){ 
     const shoes = { 
-        size: "45", 
+        size: 45, 
         color: "Brown", 
         brand: "Toughies", 
         company: "Bata shoes",
@@ -32,7 +32,21 @@ function shoeCompany(){
 
 }
 
+// Accessing methods js code example 2
 
+function farmProducts() { 
+    const fruits = { 
+        name: "apple",
+        weight: 100,
+        color:"green",  
+        fruitColor: function() { 
+            return this.color;
+        } 
+    }; 
+
+    document.getElementById('test3').innerHTML = fruits.fruitColor(); 
+    document.getElementById('test3').style.fontSize = "20px";
+}
 
 
 
