@@ -9,10 +9,18 @@
 <body> 
      
     <h2>Changing the html content with id</h2> 
-    <p id="test1">What time is it now?</p>
+    <p id="test1">What time is it now?</p> 
     <p id="test2"></p> 
-    <button type="button" onclick="displayDate()">Click to check</button>
-       
+    <button type="button" onclick="displayDate()">Click to check</button>  
+
+    <!-- Same code in html -->
+    <p id="test1">What is the current time?</p> 
+    <p id="test3"></p>
+    <button type="button" onclick="document.getElementById('test3').innerHTML = Date()">Click to check</button> 
+     
+    <p id="test1">Event handlers changing the content of its own element</p>
+    <p id="test4"></p> 
+    <button type="button" onclick="this.innerHTML=Date()" onclick="changeContent()">The time is?</button>
     <script src="/practice10_event_handlers/test.js"></script>
 </body>
 </html>
