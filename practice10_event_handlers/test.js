@@ -1,8 +1,13 @@
-// Event handlers js code 
+// Event handlers js code example 1
 
-function workStation() { 
-    document.getElementById('test1').innerHTML = Date();
-}
+function displayDate() { 
+    document.getElementById('test2').innerHTML = Date();
+} 
+
+// Event handlers js code example 2 
+
+
+
 
 
 
