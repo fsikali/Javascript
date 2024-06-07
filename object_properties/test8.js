@@ -16,7 +16,7 @@ function objectCar() {
 
 // Accessing methods js code example 1
 
-function shoeCompany(){ 
+function shoeCompany() { 
     const shoes = { 
         size: 45, 
         color: "Brown", 
