@@ -46,6 +46,22 @@ function farmProducts() {
 
     document.getElementById('test3').innerHTML = fruits.fruitColor(); 
     document.getElementById('test3').style.fontSize = "20px";
+} 
+
+// Accessing methods in js code example 3 
+
+function houseItems() {
+    const house = { 
+        color: "blue",
+        width: 500,
+        roof: "wooden",
+        floor:"tiles", 
+        houseColor: function() { 
+            return this.color;
+        }
+    }; 
+
+    document.getElementById('test4').innerHTML = house.houseColor();
 }
 
 
